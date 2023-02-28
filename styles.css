@@ -1,0 +1,58 @@
+h2 {
+    color: aquamarine;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text-animate {
+    display: flex;
+    font-size: 18px;
+}
+
+p {
+    margin-left: 50px;
+}
+
+.text-animate p:first-child {
+    text-shadow: 9px 9px 2px blue;
+}
+
+.text-animate p:nth-child(2) {
+    color: blueviolet;
+    padding: 10px;
+    background-color: pink
+}
+
+.text-animate p:nth-child(3) {
+    text-shadow: 0 10px black;
+    color: blueviolet;
+}
+
+.text-effect {
+    display: inline-block;
+}
+
+.text-animate-two {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-animate-two p:first-child {
+    color: burlywood;
+}
+
+.text-animate-two p:nth-child(3) {
+    color: cyan;
+    background-color: pink;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    background-color: purple;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+}
